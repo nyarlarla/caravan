@@ -228,4 +228,27 @@ footer{
 	color:#fff;
 }
 
+/*メディアクエリ設定(スマホ)*/
+@media screen and (max-width:425px){
+main{
+	width:100%;
+	}
+
+.blog{
+	width:100%;
+}
+
+.blog-text{
+	float:none;
+}
+
+.instagram-box{
+	float:none;
+}
+
+.sidebar{
+	float:none;
+}
+
+}
 
