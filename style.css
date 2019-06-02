@@ -230,25 +230,62 @@ footer{
 
 /*メディアクエリ設定(スマホ)*/
 @media screen and (max-width:425px){
+
+header{
+	width:100%;
+}
+
+
+.nav-list-item{
+	width:100%;
+	margin:5px;
+	}
+
+.social{
+	display:none;
+}
+
 main{
 	width:100%;
 	}
+
+.main-visual-content{
+	width:100%;
+}
 
 .blog{
 	width:100%;
 }
 
-.blog-text{
-	float:none;
+.blog-box{
+	padding:0 2%;
 }
 
-.instagram-box{
-	float:none;
+.blog-image{
+	width:48%;
+	margin:2%
+}
+
+.blog-text{
+	width:48%
 }
 
 .sidebar{
-	float:none;
+	width:100%;
 }
+
+.sidebar-contents{
+	padding-left:10px;
+}
+
+.pagination{
+	padding-bottom:50px;
 
 }
 
+.instagram-box{
+	width:48%;
+	padding-top:40%;
+}
+
+}
